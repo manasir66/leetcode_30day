@@ -1,0 +1,2 @@
+We can write a function that checks and if it hits a previosly checked value we can return a False bool and if it goes to 1 a true bool.
+Every value visited can be stored in a map
