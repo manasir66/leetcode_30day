@@ -1,0 +1,18 @@
+The best way to find the middle of a linked list is by using the slow pointer
+fast pointer method
+
+lets say the lenght of the linked list is 100
+
+slow point is at zero and so is fast pointer
+
+after first iteration: 
+	s -> 1 and f ->2 
+	s -> 2 and f ->4
+	.
+	.
+	.	
+	.	
+	.
+	s -> 8 and f ->16
+
+this way when f hits the end the s will be at the middle 
