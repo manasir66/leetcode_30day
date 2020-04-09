@@ -1,9 +1,7 @@
 
  #Definition for singly-linked list.
 class ListNode:
-
-
-
+  
   def __init__(self, x):
 
     self.val = x
@@ -17,4 +15,8 @@ class Solution:
     slow_pointer = head
 
     while ((fast_pointer != None) and (fast_pointer.next != None)):
-      pass
+      
+      fast_pointer = fast_pointer.next.next
+      slow_pointer = slow_pointer.next
+
+    return slow_pointer
