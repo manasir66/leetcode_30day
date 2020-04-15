@@ -17,7 +17,7 @@ public:
 
       replace(nums.begin(), nums.end(), 0, -1);
       int sum =0;
-      int count =0, ans=INT_MIN;
+      int ans=0;
       
       unordered_map<int, int> hash_mp;
 
