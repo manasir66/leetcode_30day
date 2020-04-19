@@ -1,0 +1,35 @@
+this is a dynamic programming problem 
+
+we can get that because it tells us to minimize the sum 
+
+a minimization DP problem (opmization)
+
+we can only move down or right 
+
+go from top left to bottom right
+
+break into smaller sub probelms 
+
+find the state
+
+basically make the search space smaller 
+
+have a dp array
+fill it with the smallest sum 
+
+do error checking first 
+if grid is null or size = 0 return 0
+make a dp [][] array with grid length 
+first we get rows and then get cols grid[row][col]
+add dp[i][j] all grid values
+elemenate the 1st cell [0][0]
+dp = min(dp) froom cell above and to h eleft
+get the min of 
+
+iterate all the dp 
+two for looops to get every single cell
+
+return the final cell
+
+
+

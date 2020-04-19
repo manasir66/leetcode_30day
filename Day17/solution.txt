@@ -1,0 +1,16 @@
+CLclassical graph problem 
+
+any connected 1 is an island and have to be surrounded by watere
+
+11000
+11000
+00100
+00011
+
+this has 3 islands .. the edges are water
+
+we have to traverse the entire matrix
+
+check the case of grid being zero 
+
+[[1,1,0,0,0], [1,1,0,0,0], [0,0,1,0,0], [0,0,0,1,1]]
