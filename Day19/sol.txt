@@ -1,0 +1,22 @@
+the problem talks about a rotated sorted array
+then it will have a pivot upon which it is rotated 
+
+the time complexity is O(logN)
+
+so we have to use binary search
+
+we can use BS twice 
+  once to find the pivot 
+  and second based on a condition to check for that element
+
+OlogN + OlogN = OlogN so we are in the time complexity
+
+we can split the given rotated array into 2 parts
+
+based on the search element we can select which sorted part to 
+do the BS 
+  1st part 
+  or 2nd part
+
+if search elem > pivot and < last elem then search on 2nd part
+else search on first 
