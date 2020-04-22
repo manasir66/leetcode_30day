@@ -25,7 +25,7 @@ class Solution:
       #the 1st elem in the pre order search is the root
       #so we initialize root as peorder[0]
       root = TreeNode(preorder[0])  
-
+      print(f"ROOT : {root.val}")
       index = 1 # since we have used zero to initialize the root
 
       #increment the index till the end of the list while making sure you reach the index before the
@@ -34,7 +34,8 @@ class Solution:
         index += 1
 
       #once the index has been found we can recursively run this to build the tree
-
+      print("LEFT",preorder[1:index])
+      print("RIGHT",preorder[index:])
       root.left = self.bstFromPreorder(preorder[1:index]) 
       #build the left while passing the list from one to the index 
 
