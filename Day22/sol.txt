@@ -1,0 +1,23 @@
+The easy way to do this is using brute force
+
+generate all possible sub arrays 
+
+have a counter and then increment counter when == k 
+
+return counter
+ 
+this is O(n2) -> not very effiecient 
+
+
+The other way is to have the cmumulative sum of the array 
+
+and if substraction of any 2 cummulative sums == k then we add that to the
+counter
+
+to do this we can maintain a key value pair 
+  dictionary in python or 
+  unordered map in c++ or 
+  generally known as a hash map 
+  
+
+this takes O(N) time only 
