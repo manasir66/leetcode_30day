@@ -6,13 +6,6 @@ class Dll: #dll = doubly linked list
     self.next_n = None
     self.prev_n = None  
 
-
-
-
-
-
-
-
 class LRUCache:
 
   
